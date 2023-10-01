@@ -1,0 +1,118 @@
+:root {
+  --clr-soft-blue: hsl(215, 51%, 70%);
+  --clr-cyan: hsl(178, 100%, 50%);
+  --clr-main-bg: hsl(217, 54%, 11%);
+  --clr-card-bg: hsl(216, 50%, 16%);
+  --clr-line: hsl(215, 32%, 27%);
+
+  --fs-main: 18px;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--clr-main-bg);
+  font-family: var(--ff-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eq-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.eq {
+  padding: 30px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  background-color: var(--clr-card-bg);
+
+  box-shadow: 8px 8px 8px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 12px 12px 12px 40px rgba(0, 0, 0, 0.05);
+}
+
+.eq-title {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+
+.eq-p {
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  opacity: 50%;
+  font-size: 1.25rem;
+  padding-bottom: 35px;
+}
+
+.eth-info {
+  display: flex;
+}
+
+.eth-info img {
+  padding-right: 10px;
+}
+
+.eth-info p {
+  color: white;
+  opacity: 50%;
+  font-size: 1rem;
+  font-family: 'Outfit' sans-serif;
+}
+
+#eth-icon {
+  padding-right: 130px;
+  color: var(--clr-cyan);
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif;
+  opacity: 100%;
+}
+#eth-timer {
+  color: white;
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif;
+}
+.eth-footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex start;
+  align-items: center;
+  padding-top: 20px;
+}
+.eth-footer img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.eth-footer p{
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  opacity: 50%;
+}
+
+
+hr {
+  margin-top: 30px;
+  opacity: 20%;
+}
+
